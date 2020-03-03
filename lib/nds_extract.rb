@@ -86,27 +86,6 @@ def gross_per_studio(collection)
   studio_grosses
 end
 
-#def summary_snack_count_by_prices(snacks)
- # result = {}
-  #i = 0
- 
-  #while i < snacks.length do
-    # For readability, let's save this lookup to somethign meaningful
-   # snack_name = snacks[i][:name]
-    #snack_price = snacks[i][:price]
-    # If there's no key for this number, add the number as a key and assign it
-    # a new Array for holding future snacks with that price
-    #if !result[snack_price]
-     # result[snack_price] = 1
-  #  else
-   #   result[snack_price] += 1
-    #end
-    #i += 1
-  #end
- 
-  #result
-#end
-
 
 def movies_with_directors_set(source)
   director_index = 0 
